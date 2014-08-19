@@ -22,3 +22,6 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Project original
+cmd/get-git-ignore/get-git-ignore
