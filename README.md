@@ -29,9 +29,13 @@ you can filter candidates interactively.
 Install peco and put like below to your `.zshrc` file.
 `.gitignore.list` is like [this](https://gist.github.com/handlename/64c126d86480408aabbe).
 
-```zsh
+```sh
 function _peco_ggi_list () {
-    get-git-ignore $(cat ~/.gitignore.list | peco)
+    lang=$(cat ~/.gitignore.list | peco)
+
+    if [ -n "$lang" ]; then
+        get-git-ignore --lang=$lang
+    fi
 }
 alias ggi=_peco_ggi_list
 ```
