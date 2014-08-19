@@ -16,6 +16,10 @@ $ ls -a
 $ go get handlename/go-get-git-ignore
 ```
 
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
 ## Author
 
 [handlename](https://github.com/handlename)
