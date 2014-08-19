@@ -13,7 +13,7 @@ $ ls -a
 ## Installation
 
 ```sh
-$ go get handlename/go-get-git-ignore
+$ go get github.com/handlename/go-get-git-ignore
 ```
 
 ## Licence
