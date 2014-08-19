@@ -1,11 +1,11 @@
-# go-get-git-ignore (ggi)
+# go-get-git-ignore
 
-Get and save .gitignore file from github/gitignore quickly.
+Fetch and save .gitignore file from github/gitignore quickly.
 
 ## Usage
 
 ```sh
-$ ggi Go
+$ get-git-ignore --lang=Go
 $ ls -a
 .gitignore
 ```
