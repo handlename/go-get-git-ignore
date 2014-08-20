@@ -30,10 +30,10 @@ func main() {
 	}
 	err := ggi.FetchAndSave(o.Lang, o.Out)
 
-	if err == nil {
-		fmt.Printf("saved file to %s successfuly.\n", o.Out)
+	if err != nil {
+		fmt.Println(err)
 		os.Exit(1)
 	}
 
-	fmt.Println(err)
+	fmt.Printf("saved file to %s successfuly.\n", o.Out)
 }
