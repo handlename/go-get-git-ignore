@@ -27,11 +27,10 @@ $ ln -s $GOPATH/src/github.com/handlename/go-get-git-ignore/cmd/get-git-ignore/g
 Using with [peco](https://github.com/peco/peco),
 you can filter candidates interactively.
 Install peco and put like below to your `.zshrc` file.
-`.gitignore.list` is like [this](https://gist.github.com/handlename/64c126d86480408aabbe).
 
 ```sh
 function _peco_ggi_list () {
-    lang=$(cat ~/.gitignore.list | peco)
+    lang=$(get-git-ignore | peco)
 
     if [ -n "$lang" ]; then
         get-git-ignore --lang=$lang
