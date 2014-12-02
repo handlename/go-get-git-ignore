@@ -41,7 +41,7 @@ alias ggi=_peco_ggi_list
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[MIT](https://github.com/handlename/go-get-git-ignore/blob/master/LICENCE)
 
 ## Author
 
