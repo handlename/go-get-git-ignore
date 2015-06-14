@@ -16,10 +16,7 @@ $ ls -a
 ## Installation
 
 ```sh
-$ go get github.com/handlename/go-get-git-ignore
-$ cd $GOPATH/src/github.com/handlename/go-get-git-ignore/cmd/get-git-ignore
-$ go build
-$ ln -s $GOPATH/src/github.com/handlename/go-get-git-ignore/cmd/get-git-ignore/get-git-ignore ~/bin/get-git-ignore
+$ go get github.com/handlename/go-get-git-ignore/cmd/get-git-ignore
 ```
 
 ## Example
